@@ -1,0 +1,23 @@
+#houseImg {
+  height: 200px;
+  width: auto;
+  display:block;
+  padding: 10px 30%;
+  margin:0 auto;
+}
+button {
+  margin-bottom:20px;
+  padding:10px;
+}
+input {
+  padding:10px;
+  margin:20px;
+}
+#houseName {
+  font-family:sans-serif;
+  text-transform: uppercase;
+}
+#houseInfo {
+  font-family: sans-serif;
+  font-size: 20px;
+}
