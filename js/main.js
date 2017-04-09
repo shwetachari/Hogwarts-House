@@ -24,7 +24,7 @@ var objHouse = [
     imgPath: "http://rs869.pbsrc.com/albums/ab251/shattered_peace/Hogwarts/hufflepuff.jpg~c200"
   },
 ]
-$('#submitForm').mousedown(function(){
+$('#submitForm').click(function(){
   var name = document.getElementById("name").value;
   var houseName = name[0].toUpperCase() + name.substring(1);
   var houseImg = document.getElementById("houseImg");
